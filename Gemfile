@@ -17,9 +17,9 @@ end
 
 group :chef do
   gem 'berkshelf'
-  gem 'chef', '~> 12.0'
-  gem 'chef-zero', '~> 5.3'
-  gem 'chefspec', '~> 6.0'
+  gem 'chef', '~> 12.22', '>= 12.22.5'
+  gem 'chef-zero', '~> 5.3', '>= 5.3.2'
+  gem 'chefspec', '~> 6.2', '>= 6.2.0'
   gem 'kitchen-docker'
   gem 'kitchen-vagrant'
   gem 'rspec'
