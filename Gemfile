@@ -7,7 +7,7 @@ group :lint do
   gem 'bundler-audit'
   gem 'coveralls'
   gem 'fasterer'
-  gem 'foodcritic'
+  gem 'foodcritic', '>= 16.3.0'
   gem 'mdl'
   gem 'overcommit'
   gem 'rubocop'
@@ -16,10 +16,10 @@ group :lint do
 end
 
 group :chef do
-  gem 'berkshelf'
-  gem 'chef', '~> 12.0'
-  gem 'chef-zero', '~> 5.3'
-  gem 'chefspec', '~> 6.0'
+  gem 'berkshelf', '>= 7.0.0'
+  gem 'chef', '~> 13.0', '>= 13.0.113'
+  gem 'chef-zero', '~> 13.0', '>= 13.0.0'
+  gem 'chefspec', '~> 7.0', '>= 7.0.0'
   gem 'kitchen-docker'
   gem 'kitchen-vagrant'
   gem 'rspec'
