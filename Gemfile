@@ -10,8 +10,8 @@ group :lint do
   gem 'foodcritic'
   gem 'mdl'
   gem 'overcommit'
-  gem 'rubocop'
-  gem 'rubocop-performance'
+  gem 'rubocop', '>= 0.80.1'
+  gem 'rubocop-performance', '>= 1.6.0'
   gem 'travis'
 end
 
