@@ -7,7 +7,7 @@ group :lint do
   gem 'bundler-audit'
   gem 'coveralls'
   gem 'fasterer'
-  gem 'foodcritic'
+  gem 'foodcritic', '>= 16.3.0'
   gem 'mdl'
   gem 'overcommit'
   gem 'rubocop'
