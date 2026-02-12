@@ -12,11 +12,11 @@ group :lint do
   gem 'overcommit'
   gem 'rubocop'
   gem 'rubocop-performance'
-  gem 'travis'
+  gem 'travis', '>= 1.12.0'
 end
 
 group :chef do
-  gem 'berkshelf'
+  gem 'berkshelf', '>= 7.0.0'
   gem 'chef', '~> 12.0'
   gem 'chef-zero', '~> 5.3'
   gem 'chefspec', '~> 6.0'
